@@ -37,7 +37,7 @@ export const htmlMain = (
   return result;
 };
 
-// todo lint idea: replace BorderRadius.only(topleft: 8, topRight: 8) with BorderRadius.horizontal(8)
+// todo lint idea: replace BorderRadius.only(topleft: 7, topRight: 7) with BorderRadius.horizontal(8)
 const htmlWidgetGenerator = (
   sceneNode: ReadonlyArray<AltSceneNode>,
   isJsx: boolean
